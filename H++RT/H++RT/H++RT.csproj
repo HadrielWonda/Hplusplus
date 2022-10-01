@@ -7,8 +7,8 @@
     <ProjectGuid>{341F8BF2-6AD9-401A-85CB-565317684A46}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KlipRT</RootNamespace>
-    <AssemblyName>KlipRT</AssemblyName>
+    <RootNamespace>HppRT</RootNamespace>
+    <AssemblyName>HppRT</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
