@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace KlipCompiler
+namespace Nestlewood
 {
     class Program
     {
@@ -59,7 +59,7 @@ namespace KlipCompiler
                 c += "\n" + s.ReadToEnd();
             }
 
-            FileStream fs = new FileStream(Path.GetFileNameWithoutExtension(args[0]) + ".krt", FileMode.Create);
+            FileStream fs = new FileStream(Path.GetFileNameWithoutExtension(args[0]) + ".hpp", FileMode.Create);
             BinaryWriter bw = new BinaryWriter(fs);
             bw.Write(c);
         }
