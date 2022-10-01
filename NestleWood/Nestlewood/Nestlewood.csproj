@@ -7,8 +7,8 @@
     <ProjectGuid>{7A26CD3F-0D35-4356-9DE1-E5E304BBABD7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KlipCompiler</RootNamespace>
-    <AssemblyName>KlipCompiler</AssemblyName>
+    <RootNamespace>Nesttlewood</RootNamespace>
+    <AssemblyName>Nesttlewood</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
