@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Nestlewood
-{
+namespace Nestlewood;
+
     class Program
     {
         public static List<string> imports;
@@ -64,4 +64,4 @@ namespace Nestlewood
             bw.Write(c);
         }
     }
-}
+
