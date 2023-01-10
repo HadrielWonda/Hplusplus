@@ -18,7 +18,7 @@ namespace Nestlewood
             StreamReader sr = new StreamReader(args[0]);
             string code = sr.ReadToEnd();
 
-            Lexer lexer = new KlipCompiler.Lexer();
+            Lexer lexer = new Nestlewood.Lexer();
             lexer.InputString = code;
 
             List<Token> tokens = new List<Token>();
