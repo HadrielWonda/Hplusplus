@@ -59,7 +59,7 @@ namespace Nestlewood;
                 c += "\n" + s.ReadToEnd();
             }
 
-            FileStream fs = new FileStream(Path.GetFileNameWithoutExtension(args[0]) + ".hpp", FileMode.Create);
+            FileStream fs = new FileStream(Path.GetFileNameWithoutExtension(args[0]) + ".hpl", FileMode.Create);
             BinaryWriter bw = new BinaryWriter(fs);
             bw.Write(c);
         }
