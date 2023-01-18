@@ -5,8 +5,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Nestlewood
-{
+namespace Nestlewood;
+
     public class Lexer
     {
         private readonly Dictionary<Tokens, string> _tokens;
@@ -214,4 +214,4 @@ namespace Nestlewood
             return Tokens[pos];
         }
     }
-}
+
