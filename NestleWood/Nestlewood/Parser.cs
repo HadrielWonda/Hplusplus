@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nestlewood
-{
+namespace Nestlewood;
+
     class Parser
     {
         static TokenList tokens;
@@ -478,4 +478,4 @@ namespace Nestlewood
             return tree;
         }
     }
-}
+
