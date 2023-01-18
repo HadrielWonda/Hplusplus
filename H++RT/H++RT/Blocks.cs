@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HppRT
-{
+namespace HppRT;
+
     class Block
     {
         public int blockNumber;
@@ -38,4 +38,4 @@ namespace HppRT
             endBlock = 0;
         }
     }
-}
+
