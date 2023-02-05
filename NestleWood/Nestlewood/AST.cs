@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nestlewood
-{
+namespace Nestlewood;
+
     class Stmt { }
 
     class Expr { }
@@ -185,4 +185,4 @@ namespace Nestlewood
         leftBrace = 9,
         rightbrace = 10
     }
-}
+
